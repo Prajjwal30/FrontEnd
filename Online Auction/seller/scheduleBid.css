@@ -1,0 +1,78 @@
+body{
+    display:block;
+    background-color:beige;
+    padding: 0 10vw;
+    color:white;
+    text-underline-position: below;
+    background-image: url(schedule.jpg);
+    background-size: 75%;
+    background-position: -100px 0px 0px;
+    background-position:right;
+}
+
+textarea{
+    width: 40%;
+    height: 100px;
+    resize: none;
+    padding: 10px 20px;
+    background-color:white;
+}
+
+.time{
+    background-color: rgba(18, 5, 5, 0.812);
+    width: 30%;
+    height: 100%;
+    padding-left: 4%; 
+    
+}
+
+.min-bid-value input{
+    margin: 0;
+    background-color:white;
+    display:flex;
+}
+
+.start-date input{
+    margin: 0;
+    background-color:white;
+}
+
+.end-date input{
+    margin: 0;
+    background-color:white;
+}
+
+.buttons{
+    margin: 20px 0 50px;
+    padding: 20px 30px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    cursor: pointer; 
+    text-align: right;
+    
+}
+
+.back{
+    text-align-last:left;
+    cursor: pointer;
+    font-style: italic;
+    src:white;
+}
+
+h1{
+    text-align:left;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 10%;
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+ h3{
+    text-decoration-color: white;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+ }

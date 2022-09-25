@@ -1,0 +1,10 @@
+body{
+    background-image: url('queue.jpeg');
+   
+    object-fit:fill;
+   
+}
+.form-group
+{
+    background-color: rgb(144, 212, 229);
+}

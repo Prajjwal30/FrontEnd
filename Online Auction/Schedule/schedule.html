@@ -1,0 +1,54 @@
+<html>
+    <head> 
+        <link rel="stylesheet" href="scheduleBid.css">
+    </head>
+<body>
+    <div class="time">
+        <h1> Schedule Auction </h1>
+    <form name="schedule" action="#" method="post" onsubmit="return validateForm()"> </form>
+
+    <div class="Category">
+        <h3> Choose Product </h3>
+                    <select name="Product" required>
+                    <option value="Painting">Painting</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Ancient">Ancient articrafts</option>
+                    </select>
+     </div>               
+
+            <div class="Min_Value">
+                        <h3>Enter Minimum Bid Value </h3>
+                           <input type="number" name="MinValue" required />
+            </div>
+
+            <div class="start_date">
+                <h3>Choose Bid Start Date</h3>
+                   <input type="date" name="StartDate" required />
+    </div>
+
+    <div class="end_date">
+        <h3>Choose Bid End Date</h3>
+           <input type="date" name="EndDate" required />
+</div>
+
+<form>
+    <div class="buttons">
+        
+      <button type="submit">Schedue Bid</button> 
+    </div>
+    </form>
+    
+
+<form>
+    <div class="back">
+    <a href="javascript:history.back()">Previous Screen</a>
+</div>
+</form>
+
+</div>
+<script src="bid.js">  </script>
+      
+    </body>
+</html>
+
+
